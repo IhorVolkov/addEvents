@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.data {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 820px;
+  width: 180px;
+  height: 25px;
+  border: 1px solid #d8d8d8;
+}
+
+.data p {
+  display: block;
+  margin-top: 4px;
+}
+
+.three_blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+.blocks {
+  display: block;
+  height: 350px;
+  width: 300px;
+  border: 1px solid #d8d8d8;
+}
+.blocks h2 {
+  background: #d8d8d8;
+  margin-top: 0;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Arial';
+  line-height: 35px;
+}
+.info {
+  padding-top: 10px;
+}
+.cst1 ul,
+.cst2 ul,
+.cst3 ul,
+.cst4 ul,
+.cst5 ul,
+.cst6 ul {
+  display: flex;
+  font-display: row;
+  justify-content: space-around;
+  padding-left: 0;
+}
+.info .hidden {
+  padding-right: 55px;
+}
+.cst1 ul:hover,
+.cst2 ul:hover,
+.cst3 ul:hover,
+.cst4 ul:hover,
+.cst5 ul:hover,
+.cst6 ul:hover {
+  background: #d8d8d8;
+}
+/* form p {
+  text-align: center;
+} */
+.four_inputs {
+  display: flex;
+  justify-content: center;
+}
+input {
+  display: block;
+  width: 290px;
+  height: 20px;
+}
+form p {
+  margin-left: 195px;
+  font-size: 20px;
+  font-family: 'Arial';
+  font-weight: bold;
+  margin-top: 160px;
+}
+#end,
+.input_end,
+#time,
+.input_data {
+  margin-left: 20px;
+}
+.input_start,
+.input_end {
+  margin-top: 10px;
+}
+
+.input_end,
+.input_start,
+.input_name,
+.input_data {
+  font-family: 'Arial';
+  font-size: 12px;
+}
+input[type='submit'] {
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  width: 145px;
+  height: 30px;
+  margin-left: 171px;
+  border: none;
+  cursor: pointer;
+  background: tomato;
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Arial';
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
